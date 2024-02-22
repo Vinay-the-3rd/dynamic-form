@@ -1,0 +1,1 @@
+[{"label":"Name","fieldType":"textinput","option":[]},{"label":"Address","fieldType":"textarea","option":[]},{"label":"City","fieldType":"dropdown","option":["Amt","Nagpur","Pune"]},{"label":"Male","fieldType":"checkbox","option":[]},{"label":"confirm","fieldType":"radioButton","option":[]}]

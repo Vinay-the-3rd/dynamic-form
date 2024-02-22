@@ -1,0 +1,85 @@
+.fields-container{ 
+    position: absolute; 
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.fields-box{
+    padding-top: 50px;
+    border-radius: 10px; 
+    height: 60vh;
+    width: 60vw; 
+    margin: 8% 20% ;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.label{
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.input-text{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.field-btn{
+    height: 35px;
+    width: 100px;
+    background-color: #020067; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.field-btn:hover {
+    background-color: #FD7E00;
+}
+.onclickfield-btn{
+    height: 35px;
+    width: 100px;
+    background-color: #FD7E00; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.field-type{
+    margin-top: 20px;
+}
+.cancelbtn{
+    height: 45px;
+    width: 110px;
+    background-color: #020067; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.savebtn{
+    height: 45px;
+    width: 110px;
+    background-color: #FD7E00; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btnBox{
+    margin-top: 20px;
+}
+.input-option{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}

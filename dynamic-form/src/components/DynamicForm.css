@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    height: 45px;
+    width: 120px;
+    background-color: #020067;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FD7E00;
+}
+
+.custom-file-inp {
+    background-color: #FD7E00;
+    /* Green */
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.file-input {
+    display: none;
+    /* Hide the default file input */
+}
+
+.custom-file-input {
+    background-color: #FD7E00;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.option-box {
+    display: flex;
+    padding-left: 30%;
+    margin-top: 20px;
+}
+
+.option-label {
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.option-text{
+    height: 30px;
+    width: 30vw;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.removebtn{
+    height: 30px;
+    width: 120px;
+    background-color: #020067;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
